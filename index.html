@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img src="images/logo.svg" alt="logo" class="logo" />
+      </header>
+      <div class="hero-division mobile-hero-division">
+        <img
+          src="images/hero-mobile.jpg"
+          alt="hero-mobile"
+          class="hero-mobile"
+        />
+      </div>
+      <section class="text-section">
+        <header class="header desktop-header">
+          <img src="images/logo.svg" alt="logo" class="logo desktop-logo" />
+        </header>
+        <h1 class="title"><span class="sub-title">We're</span> coming soon</h1>
+        <p class="text">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+
+        <form action="" method="post" class="form" id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="email"
+            placeholder="Your email address"
+            required
+          />
+          <img
+            src="images/icon-error.svg"
+            alt="icon-error"
+            class="icon-error"
+            id="icon-error"
+          />
+          <button type="submit" class="button" id="button" title="button">
+            <img
+              src="images/icon-arrow.svg"
+              alt="send-button"
+              class="icon-arrow"
+            />
+          </button>
+        </form>
+        <span class="label" id="label"></span>
+      </section>
+      <section class="desktop-image-section">
+        <img
+          src="images/hero-desktop.jpg"
+          alt="hero-desktop"
+          class="hero-desktop"
+        />
+      </section>
+    </main>
+  </body>
+</html>
